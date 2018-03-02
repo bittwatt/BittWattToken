@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+"# My project's README" 
 
-You can use the [editor on GitHub](https://github.com/bittwatt/BittWattToken/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+1. Clone this repository.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+2. Install all system dependencies.
+npm install
 
-### Markdown
+3. Compile contract code
+truffle compile
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+4. Run the personal blockchain for development opting to have the accounts with many ether
 
-```markdown
-Syntax highlighted code block
+ganache-cli --account="0xee4e871def4e297da77f99d57de26000e86077528847341bc637d2543f8db6e2,10000000000000000000000000" --account="0x4be9f21ddd88e9e66a526d8dbb00d27f6d7b977a186eb5baa87e896087a6055f,10000000000000000000000000" --account="0x09e775e9aa0ac5b5e1fd0d0bca00e2ef429dc5f5130ea769ba14be0163021f16, 10000000000000000000000000" --account="0xed055c1114c433f95d688c8d5e460d3e5d807544c5689af262451f1699ff684f, 10000000000000000000000000" --account="0x3f81b14d33f5eb597f9ad2c350716ba8f2b6c073eeec5fdb807d23c85cf05794,10000000000000000000000000" --account="0x501a3382d37d113b6490e3c4dda0756afb65df2d7977ede59618233c787239f2,10000000000000000000000000" --account="0x3d00e5c06597298b7d70c6fa3ac5dae376ff897763333db23c226d14d48333af, 10000000000000000000000000" --account="0xc00db81e42db65485d6ce98d727f12f2ace251cbf7b24a932c3afd3a356876ad, 10000000000000000000000000" --account="0xd6f7d873e7349c6d522455cb3ebdaa50b525dc6fd34f96b9e09e2d8a22dce925, 10000000000000000000000000" --account="0x13c8853ac12e9e30fda9f070fafe776031cc4d13bee88d7ad4e099601d83c594, 10000000000000000000000000"
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bittwatt/BittWattToken/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+5. Testing
+truffle test
